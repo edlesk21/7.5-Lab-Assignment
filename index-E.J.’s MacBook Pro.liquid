@@ -9,6 +9,6 @@ title: 11ty Boilerplate
 <img alt="thumbnail" x-bind:src="hello_world"/>
 </div>
 
-<div x-data ="{hello_moon: $fetchjson('https://dummyjson.com/products/1', jsonItem='description')}"> 
+<div x-data ="{hello_moon: $fetchjson('https://dummyjson.com/products/1', jsonItem='images[2]')}"> 
 <img alt="images[2]" x-bind:src="hello_moon"/>
 </div>
