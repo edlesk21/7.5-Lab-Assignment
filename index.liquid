@@ -5,10 +5,11 @@ title: 11ty Boilerplate
 
 <h1> Lab 7.5 </h1>
 
-<div x-data ="{hello_world: $fetchjson('https://dummyjson.com/products/1', jsonItem='thumbnail')}"> 
+<div x-data ="{hello_world: $fetchjson('https://dummyjson.com/products/1', jsonItem='thumbnail')}"
+class="max-w-md mx-auto my-8 p-4 border rounded-lg"> 
 <img alt="thumbnail" x-bind:src="hello_world"/>
 </div>
 
-<div x-data ="{hello_moon: $fetchjson('https://dummyjson.com/products/1', jsonItem='description')}"> 
-<img alt="images[2]" x-bind:src="hello_moon"/>
+<div x-data ="{hello_moon: $fetchjson('https://dummyjson.com/users/1', jsonItem='image')}"> 
+<img alt="images" x-bind:src="hello_moon"/>
 </div>
