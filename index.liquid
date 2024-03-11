@@ -10,6 +10,7 @@ class="max-w-md mx-auto my-8 p-4 border rounded-lg">
 <img alt="thumbnail" x-bind:src="hello_world"/>
 </div>
 
-<div x-data ="{hello_moon: $fetchjson('https://dummyjson.com/users/1', jsonItem='image')}"> 
+<div x-data ="{hello_moon: $fetchjson('https://dummyjson.com/users/1', jsonItem='image')}"
+class="max-w-sm mx-left my-8 p-8 border-2 border-red-500 rounded-full"> 
 <img alt="images" x-bind:src="hello_moon"/>
 </div>
